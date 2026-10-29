@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'http://localhost:8080/api' })
+const api = axios.create({ baseURL: 'https://library-book-management-3-z1ri.onrender.com/api' })
 const emptyForm = { bookId: '', title: '', author: '', category: '', status: 'AVAILABLE' }
 
 export default function App() {
