@@ -1,0 +1,18 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+**/target/
+**/dist/
+
+# Runtime data and logs
+**/data/
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
